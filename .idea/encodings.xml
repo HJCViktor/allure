@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/../Page_Object_Pro/pytest.ini" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/pytest/pytest.ini" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../Page_Object_Pro/pytest/pytest.ini" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/pytest.ini" charset="GBK" />
   </component>
 </project>
