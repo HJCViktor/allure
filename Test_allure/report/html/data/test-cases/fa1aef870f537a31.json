@@ -1,0 +1,84 @@
+{
+  "uid" : "fa1aef870f537a31",
+  "name" : "test_a_001",
+  "fullName" : "Test_allure.test_001.Test_ABC#test_a_001",
+  "historyId" : "92ce085208b02c8c7b9c7cab64b9e9c4",
+  "time" : {
+    "start" : 1618199012502,
+    "stop" : 1618199012503,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: __call__() got multiple values for argument 'body'",
+  "statusTrace" : "self = <Test_allure.test_001.Test_ABC object at 0x03CF2E90>\n\n    @allure.step(title=\"第一个测试\")\n    def test_a_001(self):\n>       allure.attach(\"这是一个描述\",body=\"是是\")\nE       TypeError: __call__() got multiple values for argument 'body'\n\ntest_001.py:7: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: __call__() got multiple values for argument 'body'",
+    "statusTrace" : "self = <Test_allure.test_001.Test_ABC object at 0x03CF2E90>\n\n    @allure.step(title=\"第一个测试\")\n    def test_a_001(self):\n>       allure.attach(\"这是一个描述\",body=\"是是\")\nE       TypeError: __call__() got multiple values for argument 'body'\n\ntest_001.py:7: TypeError",
+    "steps" : [ {
+      "name" : "第一个测试",
+      "time" : {
+        "start" : 1618199012502,
+        "stop" : 1618199012502,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: __call__() got multiple values for argument 'body'\n",
+      "statusTrace" : "  File \"c:\\users\\94895\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"E:\\PyProject\\Page_Object_Pro\\Test_allure\\test_001.py\", line 7, in test_a_001\n    allure.attach(\"这是一个描述\",body=\"是是\")\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Test_allure"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ABC"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7DP7FAF"
+  }, {
+    "name" : "thread",
+    "value" : "15792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_allure.test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa1aef870f537a31.json",
+  "parameterValues" : [ ]
+}
